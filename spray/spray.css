@@ -1,0 +1,170 @@
+/*CABECERO*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+.cabecero{
+    background-color: #932828;
+    color: white;
+}
+.primero{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.name{
+    margin-left: auto;
+}
+
+.buscador{
+    margin-left: auto;
+}
+
+
+/* Estilos para el contenedor del slider */
+.slider-frame {
+    width: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilos para la lista de imágenes en el slider */
+.slider-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transition: all 1s; /* Agrega transición suave entre imágenes */
+}
+
+/* Estilos para cada elemento de la lista (imágenes) */
+.slider-list li {
+    flex: 0 0 100%; /* Cada elemento ocupa el 100% del ancho del contenedor */
+    
+}
+
+/* Estilos para las imágenes */
+.slider-list img {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Estilos para la animación del slider (para desplazarse automáticamente) */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(0%); }
+}
+
+/* Aplica la animación al desplazarse automáticamente */
+.slider-list {
+    animation: slide 16s infinite;
+}
+
+.logo{
+    height: 50px;
+}
+
+/*NAVEGACIÓN*/
+.nav {
+    background-color: #932828;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.nav-link{
+    color: white;
+    margin: 100px;
+}
+
+
+
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;    
+}
+.button-link .imagenes img{
+
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+.button-link .imagenes .rojo{
+    color: white;
+    
+}
+
+
+.button-link{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button-link img {
+    width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 30%;
+}
+
+.button-link:hover {
+    opacity: 0.7; /* Cambia la opacidad en estado de hover, si lo deseas */
+}
+
+.imagenes{
+    background-color: #932828;
+    padding: 10px;
+    border-radius:  5%;
+
+}
+
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Estilos para el pie de página */
+.footer p {
+    margin: 0; /* Elimina el margen predeterminado */
+    font-size: 16px;
+}
+
+/* Estilos para la lista de enlaces */
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+/* Estilos para los elementos de la lista */
+.footer li {
+    margin: 0 10px; /* Agrega espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces en el footer */
+.footer a {
+    color: #fff; /* Cambia el color de los enlaces a blanco */
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces en el hover */
+.footer a:hover {
+    text-decoration: underline; /* Subraya los enlaces en el hover */
+}

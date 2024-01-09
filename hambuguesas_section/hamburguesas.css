@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+.cabecero{
+    background-color: #e4c0c0;
+    color: black;
+}
+.primero{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.name{
+    margin-left: auto;
+}
+
+.buscador{
+    margin-left: auto;
+}
+
+.nav {
+    background-color: #e4c0c0;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.nav-link{
+    color: black;
+    margin: 100px;
+}
+
+.contenido {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.producto-link {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.producto {
+    border: 10px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 600px;
+}
+
+.imagenes {
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto;
+}
+
+.rojo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.detalles {
+    margin-top: 10px;
+}
+
+.button-link {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Estilos para el pie de página */
+.footer p {
+    margin: 0; /* Elimina el margen predeterminado */
+    font-size: 16px;
+}
+
+/* Estilos para la lista de enlaces */
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+/* Estilos para los elementos de la lista */
+.footer li {
+    margin: 0 10px; /* Agrega espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces en el footer */
+.footer a {
+    color: #fff; /* Cambia el color de los enlaces a blanco */
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces en el hover */
+.footer a:hover {
+    text-decoration: underline; /* Subraya los enlaces en el hover */
+}

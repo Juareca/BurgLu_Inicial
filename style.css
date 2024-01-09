@@ -1,0 +1,161 @@
+header{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.dos{
+    padding: 20px;
+    margin-right: 38%;
+    
+}
+
+.empanadasyhamburguesas{
+    color: white;
+    padding-inline-start: 30%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+header .material-symbols-outlined {
+    font-size: 45px;
+}
+
+
+.contenido {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.button-link .imagenes img{
+
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+
+.button-link .imagenes .rojo p:last-of-type{
+    color: black;
+}
+
+
+.button-link{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para los botones sin marcos */
+.button-link {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.button-link img {
+    width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 30%;
+}
+
+.button-link:hover {
+    opacity: 0.7; /* Cambia la opacidad en estado de hover, si lo deseas */
+}
+.muebleimg{
+    background-color: rgb(143, 24, 24);
+    display: flex;
+    justify-content: center;
+}
+
+.muebleimg img{
+    padding: 20px;
+    height: 300px;
+    width: 1000px;
+}
+
+.muebleimg img:nth-child(1), .muebleimg img:nth-child(3){
+    height: auto;
+    width: 90px;
+    display: flex;
+}
+.linea-separadora {
+    border-top: 1px solid #755454; /* Estilo de línea con color gris claro */
+    margin: 10px 0; /* Espacio en la parte superior e inferior de la línea */
+}
+
+.imagenes{
+    background-color: #e4c0c0;
+    padding: 5px;
+    border-radius:  5%;
+
+}
+
+/* Estilos para el footer */
+.footer {
+     /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Estilos para el pie de página */
+.footer p {
+    margin: 0; /* Elimina el margen predeterminado */
+    font-size: 16px;
+}
+
+/* Estilos para la lista de enlaces */
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+/* Estilos para los elementos de la lista */
+.footer li {
+    margin: 0 10px; /* Agrega espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces en el footer */
+.footer a {
+    color: #fff; /* Cambia el color de los enlaces a blanco */
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces en el hover */
+.footer a:hover {
+    text-decoration: underline; /* Subraya los enlaces en el hover */
+}
+
+.carrito-icon {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px;
+    margin-left: 10px; /* Espaciado entre el último enlace y el icono del carrito */
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
