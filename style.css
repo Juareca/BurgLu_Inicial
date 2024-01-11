@@ -1,3 +1,7 @@
+*{
+    flex-wrap: wrap;
+}
+
 header{
     border: 2px solid white;
     color: white;
@@ -6,12 +10,6 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 24px;
-}
-
-.dos{
-    padding: 20px;
-    margin-right: 38%;
-    
 }
 
 .empanadasyhamburguesas{
@@ -73,23 +71,7 @@ header .material-symbols-outlined {
 .button-link:hover {
     opacity: 0.7; /* Cambia la opacidad en estado de hover, si lo deseas */
 }
-.muebleimg{
-    background-color: rgb(143, 24, 24);
-    display: flex;
-    justify-content: center;
-}
 
-.muebleimg img{
-    padding: 20px;
-    height: 300px;
-    width: 1000px;
-}
-
-.muebleimg img:nth-child(1), .muebleimg img:nth-child(3){
-    height: auto;
-    width: 90px;
-    display: flex;
-}
 .linea-separadora {
     border-top: 1px solid #755454; /* Estilo de línea con color gris claro */
     margin: 10px 0; /* Espacio en la parte superior e inferior de la línea */
@@ -140,12 +122,6 @@ header .material-symbols-outlined {
     text-decoration: underline; /* Subraya los enlaces en el hover */
 }
 
-.carrito-icon {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
-    height: 50px;
-    margin-left: 10px; /* Espaciado entre el último enlace y el icono del carrito */
-    cursor: pointer;
-}
 
 
 
