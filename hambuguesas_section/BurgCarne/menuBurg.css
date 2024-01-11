@@ -16,6 +16,16 @@ header .material-symbols-outlined {
     font-size: 45px;
 }
 
+.empanadasyhamburguesas{
+    color: white;
+    text-align: center;
+}
+
+.linea-separadora {
+    border-top: 1px solid #755454; /* Estilo de línea con color gris claro */
+    margin: 10px 0; /* Espacio en la parte superior e inferior de la línea */
+}
+
 body{
     margin: 0;
     padding: 0;
