@@ -1,5 +1,3 @@
-
-
 header{
     border: 2px solid white;
     color: white;
@@ -14,17 +12,37 @@ header .material-symbols-outlined {
     font-size: 45px;
 }
 
-
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Establece la altura del contenedor para centrar verticalmente */
+body{
+    background-color: black;
 }
 
 .info {
-    /* Estilos para el contenido */
     text-align: center;
-    /* Otros estilos que puedas necesitar */
+    max-width: 280px;
+    margin: 20px auto; /* Ajusta el margen para centrar horizontalmente */
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info h3 {
+    margin: 10px 0;
+    color: white;
+}
+
+.info p {
+    font-size: 16px;
+    color: wheat;
+    margin-bottom: 10px;
+}
+
+.button{
+    font-size: large;
+    color: white;
 }
