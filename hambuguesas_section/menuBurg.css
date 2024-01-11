@@ -71,6 +71,11 @@ body{
     opacity: 0.7; /* Cambia la opacidad en estado de hover, si lo deseas */
 }
 
+.linea-separadora {
+    border-top: 1px solid #755454; /* Estilo de línea con color gris claro */
+    margin: 10px 0; /* Espacio en la parte superior e inferior de la línea */
+}
+
 /* Estilos para el footer */
 .footer {
     /* Fondo oscuro */
