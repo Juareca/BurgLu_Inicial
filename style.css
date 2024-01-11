@@ -33,7 +33,7 @@ header .material-symbols-outlined {
 .contenido {
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 .button-link .imagenes img{
