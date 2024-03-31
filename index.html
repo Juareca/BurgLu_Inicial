@@ -11,44 +11,36 @@
 <body>
 
     <header>
-        
         <h1 class="titulo"> 
             BurgLu
         </h1>
-
-        <a href="index.html" class="boton inicio">
-            <span class="material-symbols-outlined"> 
-                lunch_dining
-            </span>
-        </a>
-        
+        <span class="material-symbols-outlined"> 
+            lunch_dining
+        </span>
     </header>
 
-
-    <div class="lista">
-        <a class="ver" href="adicionales.html">Ver toppings</a>
-    </div>
-
-    <h1 class="empanadasyhamburguesas">Tus mejores hamburguesas</h1>
+    <h1 class="empanadasyhamburguesas">Tu mejor hamburguesa</h1>
 
     <section class="contenido">
+        <div class="imagenes">
+            <h3>Hamburguesas De Carnes</h3>
+            <img src="burger.jpg" alt="">
+        </div>  
 
-
-        <a href="menuBurgCarne.html" class="button-link">
-            <div class="imagenes">
-                <h3>Hamburguesas De Carnes</h3>
-                <img src="burger.jpg" alt="">
+        <div class="imagenes">
+            <h3>Toppings</h3>
+            <div class="checkbox-buttons">
+                <input type="checkbox" id="topping1" name="topping" value="topping1">
+                <label for="topping1">Salsa Tartara</label>
+                <br>
+                <input type="checkbox" id="topping2" name="topping" value="topping2">
+                <label for="topping2">Salsa Piña</label>
+                <br>
+                <!-- Añade más botones checkbox según sea necesario -->
             </div>
-        </a>
+        </div>
+          
 
-        <a href="menuBurgPollo.html" class="button-link">
-            <div class="imagenes">
-                <h3>Hamburguesas De Pollo</h3>
-                <img src="burger.jpg" alt="">
-            </div>
-        </a>
-        
-        
     </section>
     
 
@@ -56,9 +48,11 @@
         <footer>
             <div class="footer-content">
                 <p>Sean todos bienvenidos a BurgLu.</p>
-                <p>Gracias por confiar en nosotros, esperamos soprenderlos en un futuro, disfruta tu hamburguesa</p>
+                <p>Gracias por confiar en nosotros, esperamos que disfrutes tu hamburguesa</p>
             </div>
         </footer>
     </section>
+
+    <script src="javas.js"></script>
 </body>
 </html>

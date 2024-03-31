@@ -1,121 +1,78 @@
-*{
-    flex-wrap: wrap;
+* {
+    flex-wrap: wrap; /* Aplica flex-wrap a todos los elementos */
 }
 
-header{
-    border: 3px solid yellow;
-    color: white;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
+header {
+    border: 3px solid yellow; /* Borde amarillo */
+    color: white; /* Texto blanco */
+    background-color: black; /* Fondo negro */
+    display: flex; /* Usa el modelo de caja flexible */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    font-size: 24px; /* Tamaño de fuente */
 }
 
-.empanadasyhamburguesas{
-    font-size: 20px;
-    border: 0px solid yellow;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -15px;
+.empanadasyhamburguesas {
+    font-size: 20px; /* Tamaño de fuente */
+    color: white; /* Texto blanco */
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    border-bottom: 1px solid yellow;
+    padding-bottom: 7px;
 }
 
-.ver{
-    font-size: 10px;
-    color: yellow;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-top: 15px;
-    margin-right: 10px;
-}
-
-.lista{
-    margin-left: 20px;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: lato;
-    background-color: black;
+body {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    font-family: Lato, sans-serif; /* Fuente Lato */
+    background-color: black; /* Fondo negro */
 }
 
 header .material-symbols-outlined {
-    font-size: 45px;
-    color: yellow;
+    font-size: 45px; /* Tamaño de fuente */
+    color: yellow; /* Texto amarillo */
 }
-
 
 .contenido {
-    border: 3px solid yellow ;
-    display: flex;
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: space-evenly; /* Distribuye los elementos de manera uniforme */
+}
+
+.imagenes {
+    background-color: yellow; /* Fondo amarillo */
+    padding: 10px; /* Relleno */
+    border-radius: 20px; /* Borde redondeado */
+    margin: 25px; /* Margen */
     text-align: center;
-    justify-content: space-evenly;
-    
+    width: auto;
+    height: auto;
 }
 
-.imagenes{
-    background-color: yellow;
-    padding: 5px;
-    border-radius: 50px;
+.imagenes img {
+    width: 250px; /* Ancho de la imagen */
+    height: 250px; /* Altura de la imagen */
+    border-radius: 10%; /* Borde redondeado */
 }
 
-.imagenes h3{
-    color: black;
+.imagenes:hover {
+    opacity: 0.7; /* Opacidad al pasar el ratón */
 }
 
-.button-link .imagenes img{
-    display: flex;
-    height: 250px;
-    width: 250px;
-    border-radius: 50px;
+.imagenes button {
+    display: block; /* Hace que los botones se muestren como bloques */
+    margin-bottom: 10px; /* Agrega un margen inferior entre los botones */
 }
 
-
-
-.button-link  .rojo p:last-of-type{
-    color: black;
+.checkbox-buttons {
+    text-align: left;
 }
 
 
 
-/* Estilos para los botones sin marcos */
-.button-link {
-    display: inline-block;
-    border: none;
-    padding: 0;
-    margin: 25px;
-    text-decoration: none;
-}
-
-.button-link img {
-    width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
-    height: 30%;
-}
-
-.button-link:hover {
-    opacity: 0.7; /* Cambia la opacidad en estado de hover, si lo deseas */
-}
-
-.linea-separadora {
-    color: yellow;
-    border-top: 1px solid #755454; /* Estilo de línea con color gris claro */
-    margin: 10px 0; /* Espacio en la parte superior e inferior de la línea */
-}
-
-
-
-/* Estilos para el footer */
 .footer {
-     /* Fondo oscuro */
     color: #fff; /* Texto blanco */
-    padding: 20px 0;
-    text-align: center; /* Centra el contenido */
-    border-bottom: 2px solid yellow;
-    border-left: 2px solid yellow;
-    border-right: 2px solid yellow;
-
+    padding: 20px 0; /* Relleno */
+    text-align: center; /* Alinea el texto al centro */
+    border: 2px solid yellow; /* Borde */
 }
