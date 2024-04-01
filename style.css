@@ -35,10 +35,32 @@ header .material-symbols-outlined {
 }
 
 .contenido {
-    display: flex; /* Usa el modelo de caja flexible */
-    justify-content: space-evenly; /* Distribuye los elementos de manera uniforme */
-    
+    text-align: center;
 }
+
+.contenedores{
+    display: flex;
+    justify-content: center;
+}
+
+#comprar-btn {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px; /* Agrega un poco de espacio alrededor del texto */
+    font-size: 10px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: black; /* Color del texto */
+    background-color: yellow; /* Color de fondo */
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para cambios de color */
+}
+
+#comprar-btn:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}
+
 
 .imagenes {
     background-color: yellow; /* Fondo amarillo */
@@ -64,15 +86,18 @@ header .material-symbols-outlined {
 
 .checkbox-buttons {
     text-align: left;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: #fff; /* Texto blanco */
-    text-align: center; /* Alinea el texto al centro */
-    border: 2px solid yellow; /* Borde */
-
+    color: #fff;
+    text-align: center;
+    border: 2px solid yellow;
+    box-sizing: border-box; /* Agrega el modelo de caja border-box */
+    margin: 0; /* Asegúrate de que no haya margen adicional */
+    padding: 10px; /* Agrega un relleno opcional según sea necesario */
 }
+

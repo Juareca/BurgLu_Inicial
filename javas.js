@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
         if (checkbox2.checked) {
             nuevoTexto += ", Salsa Piña";
         }
-        
 
         h4Element.textContent =  nuevoTexto;
     }
@@ -34,4 +33,25 @@ document.addEventListener("DOMContentLoaded", function() {
     checkbox1.addEventListener("change", actualizarH4);
     checkbox2.addEventListener("change", actualizarH4);
     checkbox3.addEventListener("change", actualizarH4);
+
+
+    document.getElementById('comprar-btn').addEventListener('click', function() {
+        // Contenido del archivo de texto
+        var contenido = "El usuario la hamburguesa con: " + h4Element.textContent;
+
+        // Crea un objeto Blob con el contenido en formato de texto
+        var blob = new Blob([contenido], { type: 'text/plain' });
+
+        // Crea un enlace para descargar el archivo
+        var enlace = document.createElement('a');
+        enlace.href = window.URL.createObjectURL(blob);
+        enlace.download = 'archivo.txt';
+
+        // Simula hacer clic en el enlace para descargar el archivo
+        document.body.appendChild(enlace);
+        enlace.click();
+
+        // Elimina el enlace después de descargar el archivo
+        document.body.removeChild(enlace);
+    });
 });
