@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('comprar-btn').addEventListener('click', function() {
         // Contenido del archivo de texto
-        var contenido = "El usuario la hamburguesa con: " + h4Element.textContent;
+        var contenido = "El usuario ha pedido la hamburguesa con: " + h4Element.textContent;
 
         // Crea un objeto Blob con el contenido en formato de texto
         var blob = new Blob([contenido], { type: 'text/plain' });
