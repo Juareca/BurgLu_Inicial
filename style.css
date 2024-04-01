@@ -2,6 +2,13 @@
     flex-wrap: wrap; /* Aplica flex-wrap a todos los elementos */
 }
 
+body {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    font-family: Lato, sans-serif; /* Fuente Lato */
+    background-color: black; /* Fondo negro */
+}
+
 header {
     border: 3px solid yellow; /* Borde amarillo */
     color: white; /* Texto blanco */
@@ -9,7 +16,12 @@ header {
     display: flex; /* Usa el modelo de caja flexible */
     align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
-    font-size: 24px; /* Tamaño de fuente */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+header .material-symbols-outlined {
+    color: yellow; /* Texto amarillo */
+    font-size: 37px;
 }
 
 .empanadasyhamburguesas {
@@ -22,21 +34,10 @@ header {
     padding-bottom: 7px;
 }
 
-body {
-    margin: 0; /* Sin margen */
-    padding: 0; /* Sin relleno */
-    font-family: Lato, sans-serif; /* Fuente Lato */
-    background-color: black; /* Fondo negro */
-}
-
-header .material-symbols-outlined {
-    font-size: 45px; /* Tamaño de fuente */
-    color: yellow; /* Texto amarillo */
-}
-
 .contenido {
     display: flex; /* Usa el modelo de caja flexible */
     justify-content: space-evenly; /* Distribuye los elementos de manera uniforme */
+    
 }
 
 .imagenes {
@@ -47,16 +48,13 @@ header .material-symbols-outlined {
     text-align: center;
     width: auto;
     height: auto;
+    font-size: 8px;
 }
 
 .imagenes img {
-    width: 250px; /* Ancho de la imagen */
-    height: 250px; /* Altura de la imagen */
+    width: 130px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
     border-radius: 10%; /* Borde redondeado */
-}
-
-.imagenes:hover {
-    opacity: 0.7; /* Opacidad al pasar el ratón */
 }
 
 .imagenes button {
@@ -69,11 +67,12 @@ header .material-symbols-outlined {
     padding-right: 30px;
 }
 
-
-
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     color: #fff; /* Texto blanco */
-    padding: 20px 0; /* Relleno */
     text-align: center; /* Alinea el texto al centro */
     border: 2px solid yellow; /* Borde */
+
 }
