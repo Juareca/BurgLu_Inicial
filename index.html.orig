@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title class="title">BurgLu</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> ef96775 (Intento1)
+    <header>
+        <h1 class="titulo"> 
+            BurgLu
+        </h1>
+        <span class="material-symbols-outlined"> 
+            lunch_dining
+        </span>
+    </header>
+
+    <h1 class="empanadasyhamburguesas">Tu mejor hamburguesa</h1>
+
+    <section class="contenido">
+
+        <div class="contenedores">
+<<<<<<< HEAD
+=======
+
+>>>>>>> ef96775 (Intento1)
+            <div class="imagenes">
+                <h3>Hamburguesas De Carnes</h3>
+                <img src="burger.jpg" alt="">
+                <h3>Contenido: </h3>
+                <h4></h4>
+            </div>  
+    
+            <div class="imagenes">
+                <h3>Toppings</h3>
+                <div class="checkbox-buttons">
+                    <input type="checkbox" id="topping1" name="topping" value="topping1">
+                    <label for="topping1">Salsa Tartara</label>
+                    <br>
+                    <input type="checkbox" id="topping2" name="topping" value="topping2">
+                    <label for="topping2">Salsa Piña</label>
+                    <br>
+                    <input type="checkbox" id="topping3" name="topping" value="topping3">
+                    <label for="topping2">Doble Carne</label>
+                    <br>
+                    <!-- Añade más botones checkbox según sea necesario -->
+                </div>
+            </div>
+
+        </div>
+
+        <button id="comprar-btn">Comprar</button>
+
+    </section>
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> ef96775 (Intento1)
+    <section class="footer"> 
+        <footer>
+            <div class="footer-content">
+                <p>BurgLu 2024</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="javas.js"></script>
+</body>
+</html>
